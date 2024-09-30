@@ -83,3 +83,73 @@ nav button {
 }
 
 /* Hero Section End */
+
+/* Flower Section */
+.flower-section {
+  padding: 80px 0;
+}
+.flower-section .title {
+  justify-content: center;
+  text-align: center;
+}
+
+.flower-section .title h1 {
+  font-size: 50px;
+}
+
+.flower-section .title p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 17px;
+  color: rgb(124, 124, 124);
+}
+
+.flower-box {
+  justify-content: space-between;
+  align-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.box {
+  width: 100%;
+  height: 450px;
+  text-align: center;
+}
+.box li {
+  margin: 15px;
+  list-style: none;
+  text-decoration: underline;
+}
+
+.flower-box img {
+  height: 300px;
+}
+.bg1 {
+  background: #f2dee8;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.bg2 {
+  background-color: #daf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.bg3 {
+  background: #e4ecdc;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
