@@ -9,11 +9,12 @@
 
 .container {
   width: 90%;
+  margin: 0 auto;
 }
 
 /* Navbar */
 nav {
-  background: rgba(128, 128, 128, 0.331);
+  background: #fceef1;
   padding: 15px 0;
   justify-content: space-between;
 }
@@ -39,3 +40,46 @@ nav button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* Hero Area */
+
+.hero {
+  background: #fceef1;
+  height: 100vh;
+}
+
+.hero-wrapper {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left {
+  width: 50%;
+}
+
+.hero-right {
+  width: 50%;
+}
+
+.hero-left h2 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.hero-left p {
+  font-size: 18px;
+  margin: 20px 0px;
+  color: rgb(110, 110, 110);
+}
+
+.hero-left button {
+  background-color: #e55473;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/* Hero Section End */
